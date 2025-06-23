@@ -1,0 +1,582 @@
+{
+  "بانادول": {
+    "brand": "Panadol",
+    "concentration": "500 ملغ",
+    "usage": "خافض حرارة ومسكن ألم",
+    "age": "من 12 سنة فأكثر",
+    "side_effects": "تسمم كبدي في حال زيادة الجرعة"
+  },
+  "Panadol": {
+    "brand": "Panadol",
+    "concentration": "500 mg",
+    "usage": "Fever reducer and pain reliever",
+    "age": "12 years and older",
+    "side_effects": "Liver toxicity if overdosed"
+  },
+  "كتافلام": {
+    "brand": "Cataflam",
+    "concentration": "50 ملغ",
+    "usage": "مسكن ومضاد التهاب",
+    "age": "من 12 سنة فأكثر",
+    "side_effects": "قرحة المعدة ونزيف عند زيادة الجرعة"
+  },
+  "Cataflam": {
+    "brand": "Cataflam",
+    "concentration": "50 mg",
+    "usage": "Pain reliever and anti-inflammatory",
+    "age": "12 years and older",
+    "side_effects": "Stomach ulcers and bleeding if overdosed"
+  },
+  "ادول": {
+    "brand": "Adol",
+    "concentration": "500 ملغ",
+    "usage": "مسكن للألم وخافض حرارة",
+    "age": "من عمر سنة",
+    "side_effects": "تسمم كبدي بجرعة زائدة"
+  },
+  "Adol": {
+    "brand": "Adol",
+    "concentration": "500 mg",
+    "usage": "Pain reliever and fever reducer",
+    "age": "From 1 year old",
+    "side_effects": "Liver damage if overdosed"
+  },
+  "رابيدوس": {
+    "brand": "Rapidus",
+    "concentration": "50 ملغ",
+    "usage": "مسكن للآلام الحادة",
+    "age": "من 18 سنة",
+    "side_effects": "مشاكل في الكلى وقرحة معدة"
+  },
+  "Rapidus": {
+    "brand": "Rapidus",
+    "concentration": "50 mg",
+    "usage": "Used for acute pain",
+    "age": "18 years and older",
+    "side_effects": "Kidney issues and gastric ulcers"
+  },
+  "بروفين": {
+    "brand": "Brufen",
+    "concentration": "400 ملغ",
+    "usage": "مسكن ومضاد التهاب",
+    "age": "من 6 سنوات",
+    "side_effects": "اضطرابات هضمية ونزيف معدي"
+  },
+  "Brufen": {
+    "brand": "Brufen",
+    "concentration": "400 mg",
+    "usage": "Pain reliever and anti-inflammatory",
+    "age": "From 6 years",
+    "side_effects": "Digestive issues and gastric bleeding"
+  },
+  "فينادون": {
+    "brand": "Finadone",
+    "concentration": "2 ملغ ديكساميثازون + 1 ملغ كلورفينيرامين",
+    "usage": "مضاد التهاب وحساسية",
+    "age": "من 12 سنة",
+    "side_effects": "نعاس وزيادة الوزن"
+  },
+  "Finadone": {
+    "brand": "Finadone",
+    "concentration": "2 mg dexamethasone + 1 mg chlorpheniramine",
+    "usage": "Anti-inflammatory and antihistamine",
+    "age": "12 years and older",
+    "side_effects": "Drowsiness and weight gain"
+  },
+  "زيرتك": {
+    "brand": "Zyrtec",
+    "concentration": "10 ملغ",
+    "usage": "مضاد للحساسية",
+    "age": "من 6 سنوات",
+    "side_effects": "نعاس وجفاف فم"
+  },
+  "Zyrtec": {
+    "brand": "Zyrtec",
+    "concentration": "10 mg",
+    "usage": "Antihistamine",
+    "age": "From 6 years",
+    "side_effects": "Drowsiness and dry mouth"
+  },
+  "أوغمنتين": {
+    "brand": "Augmentin",
+    "concentration": "625 ملغ",
+    "usage": "مضاد حيوي واسع الطيف",
+    "age": "من 12 سنة",
+    "side_effects": "إسهال وتحسس جلدي"
+  },
+  "Augmentin": {
+    "brand": "Augmentin",
+    "concentration": "625 mg",
+    "usage": "Broad-spectrum antibiotic",
+    "age": "12 years and older",
+    "side_effects": "Diarrhea and skin rash"
+  },
+  "هيستازين": {
+    "brand": "Histazine",
+    "concentration": "10 ملغ",
+    "usage": "مضاد للحساسية",
+    "age": "من 6 سنوات",
+    "side_effects": "نعاس ودوخة"
+  },
+  "Histazine": {
+    "brand": "Histazine",
+    "concentration": "10 mg",
+    "usage": "Antihistamine",
+    "age": "From 6 years",
+    "side_effects": "Drowsiness and dizziness"
+  },
+  "موتيليوم": {
+    "brand": "Motilium",
+    "concentration": "10 ملغ",
+    "usage": "مضاد للغثيان والقيء",
+    "age": "من 12 سنة",
+    "side_effects": "جفاف فم وتقلصات عضلية"
+  },
+  "Motilium": {
+    "brand": "Motilium",
+    "concentration": "10 mg",
+    "usage": "Antiemetic (nausea and vomiting)",
+    "age": "12 years and older",
+    "side_effects": "Dry mouth and muscle cramps"
+  },
+  "رانيتيدين": {
+    "brand": "Ranitidine",
+    "concentration": "150 ملغ",
+    "usage": "لعلاج الحموضة وقرحة المعدة",
+    "age": "من 12 سنة",
+    "side_effects": "صداع وإسهال"
+  },
+  "Ranitidine": {
+    "brand": "Ranitidine",
+    "concentration": "150 mg",
+    "usage": "Used for acidity and ulcers",
+    "age": "12 years and older",
+    "side_effects": "Headache and diarrhea"
+  },
+  "أوميبرازول": {
+    "brand": "Omeprazole",
+    "concentration": "20 ملغ",
+    "usage": "مضاد لحموضة المعدة",
+    "age": "من 12 سنة",
+    "side_effects": "إمساك أو إسهال وصداع"
+  },
+  "Omeprazole": {
+    "brand": "Omeprazole",
+    "concentration": "20 mg",
+    "usage": "Acid reducer (proton pump inhibitor)",
+    "age": "12 years and older",
+    "side_effects": "Constipation or diarrhea and headache"
+  },
+  "كلاريناز": {
+    "brand": "Clarinase",
+    "concentration": "5 ملغ لوراتادين + 120 ملغ سودوإيفيدرين",
+    "usage": "مضاد للحساسية واحتقان الأنف",
+    "age": "من 12 سنة",
+    "side_effects": "أرق وزيادة ضربات القلب"
+  },
+  "Clarinase": {
+    "brand": "Clarinase",
+    "concentration": "5 mg loratadine + 120 mg pseudoephedrine",
+    "usage": "Antihistamine and nasal decongestant",
+    "age": "12 years and older",
+    "side_effects": "Insomnia and increased heart rate"
+  },
+  "أموكسيسيلين": {
+    "brand": "Amoxicillin",
+    "concentration": "500 ملغ",
+    "usage": "مضاد حيوي واسع الطيف",
+    "age": "من 6 شهور",
+    "side_effects": "إسهال وتحسس جلدي"
+  },
+  "Amoxicillin": {
+    "brand": "Amoxicillin",
+    "concentration": "500 mg",
+    "usage": "Broad-spectrum antibiotic",
+    "age": "From 6 months",
+    "side_effects": "Diarrhea and skin rash"
+  },
+  "ديكلوفيناك": {
+    "brand": "Diclofenac",
+    "concentration": "50 ملغ",
+    "usage": "مسكن ومضاد التهاب",
+    "age": "من 14 سنة",
+    "side_effects": "قرحة معدة وخلل في وظائف الكلى"
+  },
+  "Diclofenac": {
+    "brand": "Diclofenac",
+    "concentration": "50 mg",
+    "usage": "Pain reliever and anti-inflammatory",
+    "age": "14 years and older",
+    "side_effects": "Gastric ulcer and kidney dysfunction"
+  },
+  "نوفالدول": {
+    "brand": "Novaldol",
+    "concentration": "1000 ملغ",
+    "usage": "مسكن قوي وخافض حرارة",
+    "age": "من 12 سنة",
+    "side_effects": "تلف بالكبد عند تجاوز الجرعة"
+  },
+  "Novaldol": {
+    "brand": "Novaldol",
+    "concentration": "1000 mg",
+    "usage": "Strong pain reliever and antipyretic",
+    "age": "12 years and older",
+    "side_effects": "Liver damage if overdosed"
+  },
+  "سبازمو ديجستين": {
+    "brand": "Spasmo-Digestin",
+    "concentration": "مركب عشبي وإنزيمات هاضمة",
+    "usage": "للمغص واضطرابات الهضم",
+    "age": "من 6 سنوات",
+    "side_effects": "غثيان ودوخة"
+  },
+  "Spasmo-Digestin": {
+    "brand": "Spasmo-Digestin",
+    "concentration": "Herbal compounds and digestive enzymes",
+    "usage": "For colic and indigestion",
+    "age": "From 6 years",
+    "side_effects": "Nausea and dizziness"
+  },
+  "بارامول": {
+    "brand": "Paramol",
+    "concentration": "500 ملغ",
+    "usage": "خافض حرارة ومسكن",
+    "age": "من سنة",
+    "side_effects": "تلف الكبد عند الإفراط"
+  },
+  "Paramol": {
+    "brand": "Paramol",
+    "concentration": "500 mg",
+    "usage": "Fever reducer and painkiller",
+    "age": "From 1 year",
+    "side_effects": "Liver damage if overdosed"
+  },
+  "دايماستين": {
+    "brand": "Dimetindene",
+    "concentration": "1 ملغ/مل",
+    "usage": "مضاد للحساسية",
+    "age": "من عمر شهرين",
+    "side_effects": "نعاس وتهيج جلدي"
+  },
+  "Dimetindene": {
+    "brand": "Dimetindene",
+    "concentration": "1 mg/ml",
+    "usage": "Antihistamine",
+    "age": "From 2 months",
+    "side_effects": "Drowsiness and skin irritation"
+  },
+  "بسكوبان": {
+    "brand": "Buscopan",
+    "concentration": "10 ملغ",
+    "usage": "مضاد للتقلصات والمغص",
+    "age": "من 6 سنوات",
+    "side_effects": "جفاف الفم وتشوش الرؤية"
+  },
+  "Buscopan": {
+    "brand": "Buscopan",
+    "concentration": "10 mg",
+    "usage": "Antispasmodic for cramps and colic",
+    "age": "From 6 years",
+    "side_effects": "Dry mouth and blurred vision"
+  },
+  "فولتارين": {
+    "brand": "Voltaren",
+    "concentration": "50 ملغ",
+    "usage": "مسكن ومضاد التهاب",
+    "age": "من 14 سنة",
+    "side_effects": "آلام بالمعدة واضطراب بالكلى"
+  },
+  "Voltaren": {
+    "brand": "Voltaren",
+    "concentration": "50 mg",
+    "usage": "Painkiller and anti-inflammatory",
+    "age": "14 years and older",
+    "side_effects": "Stomach pain and kidney disturbance"
+  },
+                                                                                                     
+
+  "لورين": {
+    "brand": "Lorin",
+    "concentration": "10 ملغ",
+    "usage": "مضاد للحساسية",
+    "age": "من 6 سنوات",
+    "side_effects": "نعاس وجفاف الفم"
+  },
+  "Lorin": {
+    "brand": "Lorin",
+    "concentration": "10 mg",
+    "usage": "Antihistamine",
+    "age": "From 6 years",
+    "side_effects": "Drowsiness and dry mouth"
+  },
+  "اناللرج": {
+    "brand": "Anallerge",
+    "concentration": "4 ملغ",
+    "usage": "مضاد للحساسية والحكة",
+    "age": "من 6 سنوات",
+    "side_effects": "نعاس ودوخة"
+  },
+  "Anallerge": {
+    "brand": "Anallerge",
+    "concentration": "4 mg",
+    "usage": "Antihistamine for itching",
+    "age": "From 6 years",
+    "side_effects": "Drowsiness and dizziness"
+  },
+  "ألترافين": {
+    "brand": "Ultrafen",
+    "concentration": "200 ملغ",
+    "usage": "مسكن ومضاد التهاب",
+    "age": "من 12 سنة",
+    "side_effects": "حموضة المعدة ودوار"
+  },
+  "Ultrafen": {
+    "brand": "Ultrafen",
+    "concentration": "200 mg",
+    "usage": "Painkiller and anti-inflammatory",
+    "age": "12 years and older",
+    "side_effects": "Stomach acidity and dizziness"
+  },
+  "سيبتازول": {
+    "brand": "Septazole",
+    "concentration": "400 ملغ + 80 ملغ",
+    "usage": "مضاد حيوي",
+    "age": "من 6 سنوات",
+    "side_effects": "غثيان وحساسية جلدية"
+  },
+  "Septazole": {
+    "brand": "Septazole",
+    "concentration": "400 mg + 80 mg",
+    "usage": "Antibiotic",
+    "age": "From 6 years",
+    "side_effects": "Nausea and skin allergy"
+  },
+  "ميبافين": {
+    "brand": "Mebafen",
+    "concentration": "400 ملغ + 100 ملغ",
+    "usage": "مسكن ومضاد للتقلصات",
+    "age": "من 12 سنة",
+    "side_effects": "دوخة وغثيان"
+  },
+  "Mebafen": {
+    "brand": "Mebafen",
+    "concentration": "400 mg + 100 mg",
+    "usage": "Painkiller and antispasmodic",
+    "age": "12 years and older",
+    "side_effects": "Dizziness and nausea"
+  },
+  "كونجيستال": {
+    "brand": "Congestal",
+    "concentration": "500 ملغ باراسيتامول + 2 ملغ كلورفينيرامين + 30 ملغ سودوإيفيدرين",
+    "usage": "لعلاج أعراض البرد",
+    "age": "من 12 سنة",
+    "side_effects": "نعاس وجفاف الفم"
+  },
+  "Congestal": {
+    "brand": "Congestal",
+    "concentration": "500 mg paracetamol + 2 mg chlorpheniramine + 30 mg pseudoephedrine",
+    "usage": "Cold and flu symptoms relief",
+    "age": "12 years and older",
+    "side_effects": "Drowsiness and dry mouth"
+  },
+  "أترام": {
+    "brand": "Atram",
+    "concentration": "25 ملغ",
+    "usage": "لعلاج ارتفاع ضغط الدم",
+    "age": "من 18 سنة",
+    "side_effects": "دوخة وانخفاض ضغط الدم"
+  },
+  "Atram": {
+    "brand": "Atram",
+    "concentration": "25 mg",
+    "usage": "Used for hypertension",
+    "age": "18 years and older",
+    "side_effects": "Dizziness and low blood pressure"
+  },
+  "أملوديبين": {
+    "brand": "Amlodipine",
+    "concentration": "5 ملغ",
+    "usage": "لعلاج ضغط الدم والذبحة الصدرية",
+    "age": "من 18 سنة",
+    "side_effects": "تورم بالكاحل وصداع"
+  },
+  "Amlodipine": {
+    "brand": "Amlodipine",
+    "concentration": "5 mg",
+    "usage": "Used for blood pressure and angina",
+    "age": "18 years and older",
+    "side_effects": "Ankle swelling and headache"
+  },
+
+
+  "بيزوكارد": {
+    "brand": "Bisocard",
+    "concentration": "5 ملغ",
+    "usage": "لعلاج ضغط الدم المرتفع والذبحة الصدرية",
+    "age": "من 18 سنة",
+    "side_effects": "دوخة وبطء ضربات القلب"
+  },
+  "Bisocard": {
+    "brand": "Bisocard",
+    "concentration": "5 mg",
+    "usage": "For hypertension and angina",
+    "age": "18 years and older",
+    "side_effects": "Dizziness and slow heart rate"
+  },
+  "تريتاس": {
+    "brand": "Tritace",
+    "concentration": "5 ملغ",
+    "usage": "لعلاج ضغط الدم المرتفع وفشل القلب",
+    "age": "من 18 سنة",
+    "side_effects": "سعال جاف ودوخة"
+  },
+  "Tritace": {
+    "brand": "Tritace",
+    "concentration": "5 mg",
+    "usage": "Used for high blood pressure and heart failure",
+    "age": "18 years and older",
+    "side_effects": "Dry cough and dizziness"
+  },
+  "ديباكين": {
+    "brand": "Depakine",
+    "concentration": "500 ملغ",
+    "usage": "لعلاج الصرع ونوبات التشنج",
+    "age": "من 6 سنوات",
+    "side_effects": "دوخة وزيادة في الوزن"
+  },
+  "Depakine": {
+    "brand": "Depakine",
+    "concentration": "500 mg",
+    "usage": "For epilepsy and seizures",
+    "age": "From 6 years",
+    "side_effects": "Dizziness and weight gain"
+  },
+  "إندرال": {
+    "brand": "Inderal",
+    "concentration": "40 ملغ",
+    "usage": "لعلاج ارتفاع ضغط الدم والقلق",
+    "age": "من 18 سنة",
+    "side_effects": "بطء القلب وتعب"
+  },
+  "Inderal": {
+    "brand": "Inderal",
+    "concentration": "40 mg",
+    "usage": "Used for high blood pressure and anxiety",
+    "age": "18 years and older",
+    "side_effects": "Bradycardia and fatigue"
+  },
+  "سيتالوبرام": {
+    "brand": "Citalopram",
+    "concentration": "20 ملغ",
+    "usage": "مضاد اكتئاب",
+    "age": "من 18 سنة",
+    "side_effects": "أرق وغثيان"
+  },
+  "Citalopram": {
+    "brand": "Citalopram",
+    "concentration": "20 mg",
+    "usage": "Antidepressant",
+    "age": "18 years and older",
+    "side_effects": "Insomnia and nausea"
+  },
+  "ليكسوتانيل": {
+    "brand": "Lexotanil",
+    "concentration": "1.5 ملغ",
+    "usage": "مهدئ لعلاج القلق",
+    "age": "من 18 سنة",
+    "side_effects": "نعاس وتبلد مشاعر"
+  },
+  "Lexotanil": {
+    "brand": "Lexotanil",
+    "concentration": "1.5 mg",
+    "usage": "Anxiolytic (for anxiety)",
+    "age": "18 years and older",
+    "side_effects": "Drowsiness and emotional dullness"
+  },
+  "ألبرازولام": {
+    "brand": "Alprazolam",
+    "concentration": "0.5 ملغ",
+    "usage": "مهدئ لعلاج القلق والتوتر",
+    "age": "من 18 سنة",
+    "side_effects": "إدمان ودوخة"
+  },
+  "Alprazolam": {
+    "brand": "Alprazolam",
+    "concentration": "0.5 mg",
+    "usage": "Used for anxiety and panic disorder",
+    "age": "18 years and older",
+    "side_effects": "Dependence and dizziness"
+  },
+  "سبازموفين": {
+    "brand": "Spasmofen",
+    "concentration": "10 ملغ هيوسين + 50 ملغ ديكلوفيناك",
+    "usage": "مسكن للتقلصات والمغص",
+    "age": "من 12 سنة",
+    "side_effects": "دوخة وجفاف الفم"
+  },
+  "Spasmofen": {
+    "brand": "Spasmofen",
+    "concentration": "10 mg hyoscine + 50 mg diclofenac",
+    "usage": "For colic and cramps",
+    "age": "12 years and older",
+    "side_effects": "Dizziness and dry mouth"
+  },
+  "هيومان ألبومين": {
+    "brand": "Human Albumin",
+    "concentration": "20%",
+    "usage": "يعالج انخفاض بروتين الدم وفقدان السوائل",
+    "age": "حسب الحاجة الطبية",
+    "side_effects": "تحسس وزيادة ضغط دم"
+  },
+  "Human Albumin": {
+    "brand": "Human Albumin",
+    "concentration": "20%",
+    "usage": "Treats hypoalbuminemia and fluid loss",
+    "age": "As medically indicated",
+    "side_effects": "Allergic reactions and hypertension"
+  
+},
+
+  "فلاجيل": {
+    "brand": "Flagyl",
+    "concentration": "500 ملغ",
+    "usage": "مضاد للطفيليات والعدوى البكتيرية اللاهوائية",
+    "age": "من 12 سنة",
+    "side_effects": "طعم معدني بالفم وغثيان"
+  },
+  "Flagyl": {
+    "brand": "Flagyl",
+    "concentration": "500 mg",
+    "usage": "Antiparasitic and anaerobic bacterial infections",
+    "age": "12 years and older",
+    "side_effects": "Metallic taste and nausea"
+  },
+  "سيروكويل": {
+    "brand": "Seroquel",
+    "concentration": "100 ملغ",
+    "usage": "مضاد ذهان لعلاج الفصام واضطراب المزاج",
+    "age": "من 18 سنة",
+    "side_effects": "دوار وزيادة الوزن"
+  },
+  "Seroquel": {
+    "brand": "Seroquel",
+    "concentration": "100 mg",
+    "usage": "Antipsychotic for schizophrenia and mood disorder",
+    "age": "18 years and older",
+    "side_effects": "Dizziness and weight gain"
+  },
+  "جانوفيا": {
+    "brand": "Januvia",
+    "concentration": "100 ملغ",
+    "usage": "لعلاج مرض السكري من النوع الثاني",
+    "age": "من 18 سنة",
+    "side_effects": "صداع وعدوى تنفسية"
+  },
+  "Januvia": {
+    "brand": "Januvia",
+    "concentration": "100 mg",
+    "usage": "Used for type 2 diabetes",
+    "age": "18 years and older",
+    "side_effects": "Headache and respiratory infection"
+  }
+}

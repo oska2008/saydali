@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>صيدليتي - الصفحة الرئيسية</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      overflow: hidden;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      position: relative;
+      color: #fff;
+    }
+
+    .eng-abdullah {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 32px;
+      font-weight: bold;
+      color: #00ffcc;
+      animation: fadeInOut 6s ease-in-out infinite;
+      z-index: 10;
+      border-bottom: 2px solid #00f7ff;
+      padding-bottom: 5px;
+    }
+
+    @keyframes fadeInOut {
+      0%, 100% { opacity: 0; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1); }
+    }
+
+    h1 {
+      font-size: 60px;
+      color: #00f7ff;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 15px #00f7ff;
+    }
+
+    p {
+      font-size: 22px;
+      margin-bottom: 30px;
+      color: #eee;
+    }
+
+    .form-container {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 2px solid #00f7ff;
+      padding: 30px 25px;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 247, 255, 0.3);
+      z-index: 10;
+    }
+
+    .form-container input {
+      width: 90%;
+      padding: 14px;
+      margin: 12px 0;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      background: #fff;
+      color: #333;
+    }
+
+    .subscribe-btn {
+      background: linear-gradient(to right, #00f7ff, #00d4ff);
+      color: #000;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 20px;
+      cursor: pointer;
+      margin-top: 10px;
+      font-weight: bold;
+      transition: 0.4s;
+    }
+
+    .subscribe-btn:hover {
+      transform: scale(1.05);
+    }
+
+    .error {
+      display: none;
+      color: red;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .plans {
+      margin-top: 30px;
+      display: none;
+      z-index: 10;
+    }
+
+    .plan {
+      background: #111;
+      border: 2px solid #00f7ff;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 15px auto;
+      max-width: 380px;
+      box-shadow: 0 0 15px #00f7ff66;
+    }
+
+    .plan h3 {
+      margin-bottom: 10px;
+      color: #00f7ff;
+    }
+
+    .plan button {
+      background-color: #25d366;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .plan button:hover {
+      background-color: #1ebe57;
+    }
+
+    .abdallah {
+      position: absolute;
+      color: #ffffff66;
+      font-size: 18px;
+      pointer-events: none;
+      animation: float 6s infinite linear;
+    }
+
+    @keyframes float {
+      0% { opacity: 0; transform: translate(0, 0); }
+      30% { opacity: 1; }
+      100% { transform: translate(calc(-50px + 100vw * var(--rand-x)), -300px); opacity: 0; }
+    }
+
+    .star {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background: white;
+      border-radius: 50%;
+      animation: twinkle 3s infinite ease-in-out;
+      opacity: 0;
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.1; transform: scale(0.5); }
+      50% { opacity: 1; transform: scale(1.5); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="eng-abdullah">ENG ABDULLAH</div>
+
+  <h1>صيدليتي</h1>
+  <p>نظام احترافي لإدارة الأدوية والاشتراكات الطبية</p>
+
+  <div class="form-container">
+    <input type="text" id="username" placeholder="اسم المستخدم" />
+    <input type="password" id="password" placeholder="كلمة المرور" />
+    <button class="subscribe-btn" onclick="login()">دخول</button>
+    <button class="subscribe-btn" onclick="showPlans()">اشتراك</button>
+    <div class="error" id="error-msg">❌ اسم المستخدم أو كلمة المرور غير صحيحة</div>
+  </div>
+
+  <div class="plans" id="plans">
+    <div class="plan">
+      <h3>اشتراك شهري - 500 جنيه</h3>
+      <button onclick="openWhatsApp('اشتراك شهري - 500 جنيه')">اشترك الآن</button>
+    </div>
+    <div class="plan">
+      <h3>اشتراك سنوي - 5000 جنيه</h3>
+      <button onclick="openWhatsApp('اشتراك سنوي - 5000 جنيه')">اشترك الآن</button>
+    </div>
+  </div>
+
+  <script>
+    function login() {
+      const username = document.getElementById("username").value.trim();
+      const password = document.getElementById("password").value.trim();
+      const error = document.getElementById("error-msg");
+
+      const storedUser = localStorage.getItem("program_user") || "5555";
+      const storedPass = localStorage.getItem("program_pass") || "5555";
+
+      if (username === storedUser && password === storedPass) {
+        window.location.href = "index.html";
+      } else {
+        error.style.display = "block";
+      }
+    }
+
+    function showPlans() {
+      document.getElementById("plans").style.display = "block";
+      document.getElementById("error-msg").style.display = "none";
+    }
+
+    function openWhatsApp(plan) {
+      const phone = "01080174298";
+      const message = encodeURIComponent(`مرحبًا، أرغب في الاشتراك في ${plan}`);
+      window.open(`https://wa.me/2${phone}?text=${message}`, "_blank");
+    }
+
+    // عبد الله طائر
+    for (let i = 0; i < 15; i++) {
+      const name = document.createElement("div");
+      name.className = "abdallah";
+      name.textContent = "عبدالله";
+      name.style.top = `${Math.random() * 100}vh`;
+      name.style.left = `${Math.random() * 100}vw`;
+      name.style.setProperty('--rand-x', Math.random().toFixed(2));
+      name.style.animationDuration = `${4 + Math.random() * 3}s`;
+      document.body.appendChild(name);
+    }
+
+    // نجوم متلألئة
+    for (let i = 0; i < 60; i++) {
+      const star = document.createElement("div");
+      star.className = "star";
+      star.style.top = `${Math.random() * 100}vh`;
+      star.style.left = `${Math.random() * 100}vw`;
+      star.style.animationDelay = `${Math.random() * 3}s`;
+      document.body.appendChild(star);
+    }
+  </script>
+
+</body>
+</html>
