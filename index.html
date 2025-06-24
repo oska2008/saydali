@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>صيدليتك</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      direction: rtl;
+      color: #fff;
+      position: relative;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(20px);
+      border-radius: 25px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      width: 90%;
+      max-width: 480px;
+    }
+    h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: #fff59d;
+    }
+    .welcome {
+      font-size: 22px;
+      margin-bottom: 25px;
+      color: #fffde7;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 12px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      box-shadow: inset 0 2px 5px rgba(0,0,0,0.15);
+    }
+    ul#results {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: right;
+    }
+    ul#results li {
+      background-color: rgba(255, 255, 255, 0.2);
+      margin: 4px 0;
+      padding: 10px;
+      border-radius: 8px;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    ul#results li:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+    button {
+      background-color: #ffb300;
+      color: #fff;
+      border: none;
+      padding: 14px 30px;
+      border-radius: 12px;
+      font-size: 17px;
+      cursor: pointer;
+      margin-top: 15px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    }
+    button:hover {
+      background-color: #ffa000;
+    }
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      text-align: left;
+      color: #ffffffcc;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+    .footer a {
+      color: #ffcc80;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .logo {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+    .eng-name {
+      font-weight: bold;
+      font-size: 18px;
+      background-color: #fff3;
+      padding: 4px 10px;
+      border-radius: 8px;
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://cdn-icons-png.flaticon.com/512/3209/3209265.png" alt="صيدليتك" class="logo" />
+    <h1>🔍 ابحث عن دواء</h1>
+    <div class="welcome">مرحباً بكم في صيدليتي</div>
+    <input id="searchInput" type="text" placeholder="اكتب أول حرف من اسم الدواء..." onkeyup="showSuggestions()" />
+    <ul id="results"></ul>
+    <button onclick="searchMedicine()">بحث</button>
+  </div>
+
+  <div class="footer">
+    <div class="eng-name">Eng Abdullah Yasser</div>
+    <div><a href="tel:01080174298">التواصل</a></div>
+  </div>
+
+  <script>
+    const drugs = [
+      "بانادول", "بروفين", "بسكوبان", "ادول", "رابيدوس", "كتافلام",
+      "سبازمو ديجستين", "فولتارين", "بارامول", "كلاريناز",
+      "أموكسيسيلين", "ديكلوفيناك", "نوفالدول", "دايماستين",
+      "زيرتك", "أوغمنتين"
+    ];
+
+    function showSuggestions() {
+      const input = document.getElementById("searchInput").value.trim();
+      const results = document.getElementById("results");
+      results.innerHTML = "";
+
+      if (input === "") return;
+
+      const filtered = drugs.filter(drug => drug.startsWith(input));
+      filtered.forEach(drug => {
+        const li = document.createElement("li");
+        li.textContent = drug;
+        li.onclick = () => {
+          window.location.href = `results.html?query=${encodeURIComponent(drug)}`;
+        };
+        results.appendChild(li);
+      });
+    }
+
+    function searchMedicine() {
+      const query = document.getElementById('searchInput').value.trim();
+      if (query) {
+        window.location.href = `results.html?query=${encodeURIComponent(query)}`;
+      } else {
+        alert('من فضلك أدخل اسم دواء.');
+      }
+    }
+  </script>
+</body>
+</html>
